@@ -1,0 +1,52 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 70px;
+  }
+  
+  label {
+    font-weight: 0.78;
+    font-size: 14px;
+    font-style: italic;
+    margin-bottom: 3px;
+  }
+
+  input, label {
+    display: block;
+  }
+
+  input {
+    margin: 5px 0 10px 0;
+    padding: 10px;
+    min-width: 350px;
+  }
+  
+  button {
+    background-color: #333;
+    color: white;
+    padding: 6px 8px;
+    margin: 5px 10px;
+    border: none;
+    cursor: pointer;
+    border-radius: 3px;
+  }
+
+  button:hover {
+    background-color: rgb(112, 112, 112);
+    color: #fff;
+  }
+  
+  p {
+    font-weight: bold;
+    margin-bottom: 15px;
+    text-align: center;
+    margin-top: 10px;
+  }
+
+  .fee-label {
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: -5px;
+    font-weight: bold;
+  }
