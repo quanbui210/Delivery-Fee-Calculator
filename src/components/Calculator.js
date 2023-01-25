@@ -65,14 +65,14 @@ const DeliveryFeeCalculator: React.FC<Props> = () => {
               onChange={handleNumberOfItemsChange}
             />
             <br />
-            <label>Delivery Date:</label>
+            <label>Order Date:</label>
             <input
               type="date"
               value={state.deliveryDate}
               onChange={handleDeliveryDateChange}
             />
             <br></br>
-            <label>Delivery Time:</label>
+            <label>Order Time:</label>
             <input
               type="time"
               value={state.deliveryTime}
