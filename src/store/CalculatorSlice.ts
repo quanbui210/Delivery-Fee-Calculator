@@ -1,7 +1,7 @@
 import { createSlice, configureStore } from "@reduxjs/toolkit";
 
 
-interface State {
+export interface State {
     cartValue: number;
     deliveryDistance: number;
     numberOfItems: number;
